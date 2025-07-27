@@ -6,5 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Subactivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, Thùy Liên."
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark" />
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
